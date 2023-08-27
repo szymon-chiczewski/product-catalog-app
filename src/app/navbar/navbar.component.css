@@ -1,0 +1,26 @@
+.mat-toolbar {
+    display: flex;
+    justify-content: space-between;
+  
+    .spacer {
+      flex: 1;
+    }
+  
+    .rectangle-button {
+      padding: 10px 20px;
+      border: 2px solid #3f51b5;
+      border-radius: 5px;
+      background-color: white;
+      color: #3f51b5;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.2s, color 0.2s;
+  
+      &:hover {
+        background-color: #3f51b5;
+        color: white;
+      }
+    }
+  }
+  
+  
